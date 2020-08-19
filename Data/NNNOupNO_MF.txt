@@ -1,0 +1,6 @@
+GO Accession	GO Name	GO Aspect	P-value (1)	P-value (2)	Protein List (1)	Protein List (2)
+GO:0016874	ligase activity	molecular_function	3.29E-4		m.5643,m.5425,m.15756,m.3477,m.10194,m.2030,m.8914,m.24964,m.18060,m.1834,m.30496,m.13371,m.33899,m.10135,m.5881,m.1157,m.2792,m.6795	
+GO:0016491	oxidoreductase activity	molecular_function	3.56E-4		m.3970,m.6841,m.34320,m.6328,m.15526,m.24219,m.22274,m.26788,m.22691,m.19482,m.7660,m.5384,m.33899,m.15200,m.3220,m.17686,m.6795,m.4212,m.1163,m.5546,m.4533,m.3543,m.23716,m.17739,m.9628,m.7509,m.27586,m.504,m.9151,m.1811,m.13590,m.15096,m.17776,m.17897,m.11354,m.17895	
+GO:0016875	ligase activity, forming carbon-oxygen bonds	molecular_function	6.29E-4		m.18060,m.10194,m.2030,m.1834,m.8914,m.13371,m.24964,m.2792	
+GO:0016876	ligase activity, forming aminoacyl-tRNA and related compounds	molecular_function	6.29E-4		m.18060,m.10194,m.2030,m.1834,m.8914,m.13371,m.24964,m.2792	
+GO:0004812	aminoacyl-tRNA ligase activity	molecular_function	6.29E-4		m.18060,m.10194,m.2030,m.1834,m.8914,m.13371,m.24964,m.2792	

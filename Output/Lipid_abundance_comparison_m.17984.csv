@@ -1,0 +1,7 @@
+"","treatment","Protein","LogFoldChange","Zstatistic","fdr","FDRup","FDRdown","DEFLINE"
+"1","lipNsite NN-ON","m.17984",0.462,4.2999,0,0,0.59466,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADVL PE=1 SV=1"
+"2","lipOsite NO-OO","m.17984",0.152,1.2885,3.4e-05,1e-06,0.688447,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADVL PE=1 SV=1"
+"3","lipNcoral NN-NO","m.17984",-0.144,-1.2213,1,0.992921,0.874993,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADVL PE=1 SV=1"
+"4","lipOcoral ON-OO","m.17984",-0.441,-3.968,0,0.594488,0,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADVL PE=1 SV=1"
+"5","lipCross NO-ON","m.17984",0.592,5.4291,0,0,0.594006,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADVL PE=1 SV=1"
+"6","lipBack NN-OO","m.17984",0.02,0.1743,1,0.493454,0.641583,"Very long-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADVL PE=1 SV=1"

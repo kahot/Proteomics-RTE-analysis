@@ -1,0 +1,74 @@
+﻿GO,GO Name,GO Aspect,Type,P-value NN,P-value NO,P-value ON,P-value OO,# Protein NN,# Protein NO,# Protein ON,# Protein OO
+GO:0019362,1. Pyridine nucleotide metabolic process,BP,NN,1.04E-03,1.12E-02,1.64E-02,7.22E-02,20,19,19,17
+GO:0046496,1.2 Nicotinamide nucleotide metabolic process,BP,NN,1.04E-03,1.12E-02,1.64E-02,7.22E-02,20,19,19,17
+GO:0030414,2. Peptidase inhibitor activity,MF,NN,7.67E-03,1.57E-02,2.13E-02,1.57E-02,25,25,25,25
+GO:0016769,"3. Transferase activity, transferring nitrogenous gps",MF,NN,9.91E-03,1.53E-02,1.83E-02,1.53E-02,12,12,12,12
+GO:0016053,1. Organic acid biosynthetic process,BP,NO,1.00E+00,1.82E-03,6.96E-02,1.30E-01,28,38,35,32
+GO:0046394,1.2 Carboxylic acid biosynthetic process,BP,NO,1.00E+00,1.82E-03,6.96E-02,1.30E-01,28,38,35,32
+GO:0008652,1.3 Cellular amino acid biosynthetic process,BP,NO,1.00E+00,6.45E-04,1.32E-02,5.49E-02,22,31,29,26
+GO:1901607,1.4 Alpha-amino acid biosynthetic process,BP,NO,1.00E+00,4.13E-03,7.04E-02,2.91E-01,20,29,27,24
+GO:0006026,2. Aminoglycan catabolic process,BP,NO,8.94E-02,8.13E-03,1.54E-01,7.99E-01,8,9,8,7
+GO:0006032,2.2 Chitin catabolic process,BP,NO,8.94E-02,8.13E-03,1.54E-01,7.99E-01,8,9,8,7
+GO:0004568,2.3  Chitinase activity,MF,NO,4.48E-02,3.96E-03,6.94E-02,3.66E-01,8,9,8,7
+GO:0001731,3. Formation of translation preinitiation complex,BP,NO,8.94E-02,8.13E-03,1.54E-01,6.95E-02,8,9,8,8
+GO:0016282,3.2  Eukaryotic 43S preinitiation complex,CC,NO,3.07E-02,2.65E-03,5.77E-02,3.07E-02,7,8,7,7
+GO:0051493,4. Regulation of cytoskeleton organization,BP,NO,1.44E-02,1.94E-03,4.72E-02,3.24E-02,22,24,22,21
+GO:0051495,4.2  Positive regulation of cytoskeleton organization,BP,NO,1.86E-02,5.00E-03,4.40E-02,7.68E-02,14,15,14,13
+GO:0055088,5. Lipid homeostasis,BP,NO,2.48E-01,8.13E-03,1.09E-02,2.63E-02,11,13,13,12
+GO:0044089,6. Positive regulation of cellular component biogenesis,BP,NO,2.46E-02,8.70E-03,1.24E-02,1.58E-02,16,17,17,16
+GO:1901681,7. Sulfur compound binding,MF,NO,1.00E+00,9.49E-03,1.25E-02,4.82E-01,16,21,21,17
+GO:0009108,8. Coenzyme biosynthetic process,BP,NO,7.24E-02,9.95E-03,5.85E-02,4.38E-02,20,22,21,20
+GO:0016050,1. Vesicle organization,BP,OO,1.78E-01,9.01E-02,4.63E-01,6.34E-03,18,19,18,20
+GO:0016023,1.2 Cytoplasmic membrane-bounded vesicle,CC,OO,4.04E-02,8.15E-02,3.83E-02,1.23E-04,18,18,19,22
+GO:0031410,1.3 Cytoplasmic vesicle,CC,OO,5.35E-02,1.07E-01,5.16E-02,1.84E-04,18,18,19,22
+GO:0032561,2. Guanyl ribonucleotide binding,MF,OO,1.00E+00,1.00E+00,1.00E+00,1.53E-03,71,69,71,77
+GO:0032561,2.2 Guanyl ribonucleotide binding,MF,OO,1.00E+00,1.00E+00,1.00E+00,1.53E-03,71,69,71,77
+GO:0005525,2.3  GTP binding,MF,OO,1.00E+00,1.00E+00,1.00E+00,2.02E-03,70,68,70,76
+GO:0034440,1. Lipid oxidation,BP,ON,7.01E-01,3.29E-02,6.19E-03,8.98E-02,11,13,14,12
+GO:0009062,1.2 Fatty acid catabolic process,BP,ON,4.26E-01,1.69E-02,2.87E-03,4.99E-02,11,13,14,12
+GO:0019395,1.3 Fatty acid oxidation,BP,ON,7.01E-01,3.29E-02,6.19E-03,8.98E-02,11,13,14,12
+GO:0033539,1.4 Fatty acid beta-oxidation using acyl-CoA,BP,ON,4.89E-01,1.45E-02,2.04E-03,5.23E-02,10,12,13,11
+GO:0009636,2. Response to toxic substance,BP,ON,2.46E-01,1.00E+00,7.83E-03,1.00E+00,23,20,27,20
+GO:0098754,2.2 Detoxification,BP,ON,1.43E-01,1.00E+00,3.83E-03,1.00E+00,23,20,27,20
+GO:0098869,2.3 Cellular oxidant detoxification,BP,ON,1.43E-01,1.00E+00,3.83E-03,1.00E+00,23,20,27,20
+GO:1990748,2.4 Cellular detoxification,BP,ON,1.43E-01,1.00E+00,3.83E-03,1.00E+00,23,20,27,20
+GO:0043933,3. Macromolecular complex subunit organization,BP,ON,2.89E-02,2.43E-02,4.57E-03,2.12E-02,98,102,107,96
+GO:0065003,3.2 Macromolecular complex assembly,BP,ON,9.21E-02,2.15E-01,1.23E-03,6.03E-02,66,67,76,65
+GO:0034622,3.3 Cellular macromolecular complex assembly,BP,ON,1.13E-02,9.26E-02,3.56E-03,4.98E-02,51,50,55,48
+GO:0071822,3.4 Protein complex subunit organization,BP,ON,1.00E+00,7.06E-01,7.24E-03,9.73E-01,54,58,66,54
+GO:0046129,4. Purine ribonucleoside biosynthetic process,BP,ON,5.09E-02,1.02E-01,1.00E-04,3.06E-02,20,20,25,20
+GO:0042451,4.2  Purine nucleoside biosynthetic process,BP,ON,5.09E-02,1.02E-01,1.00E-04,3.06E-02,20,20,25,20
+GO:0046129,4.3 Purine ribonucleoside biosynthetic process,BP,ON,5.09E-02,1.02E-01,1.00E-04,3.06E-02,20,20,25,20
+GO:0003824,5. Catalytic activity,MF,ON,1.63E-02,1.02E-02,1.69E-03,5.83E-01,909,945,968,854
+GO:0016868,"5.2 Intramolecular transferase activity, PTS",MF,ON,1.01E-01,1.30E-01,4.05E-03,7.81E-02,6,6,7,6
+GO:1990204,5.3 Oxidoreductase complex,CC,ON,2.89E-01,1.56E-02,3.51E-03,2.87E-01,10,12,13,10
+GO:0016209,6. Antioxidant activity,MF,ON,8.24E-02,1.00E+00,1.76E-03,1.00E+00,23,20,27,20
+GO:0043230,7. Extracellular organelle,CC,ON,4.56E-02,8.94E-02,2.49E-03,5.19E-01,17,,20,15
+GO:1903561,7.2  Extracellular vesicle,CC,ON,4.56E-02,8.94E-02,2.49E-03,5.19E-01,17,17,20,15
+GO:0065010,7.3 Extracellular membrane-bounded organelle,CC,ON,3.36E-02,6.64E-02,7.25E-03,1.00E+00,17,17,19,14
+GO:0070062,7.4 Extracellular exosome,CC,ON,3.36E-02,6.64E-02,7.25E-03,1.00E+00,17,17,19,14
+GO:0005739,8. Mitochondrion,CC,ON,1.12E-01,2.75E-02,4.13E-04,5.33E-01,62,67,75,59
+GO:0098796,9. Membrane protein complex,CC,ON,4.77E-01,1.01E-02,2.91E-03,2.60E-01,67,77,81,68
+GO:0030658,9.2 Transport vesicle membrane,CC,ON,1.00E+00,1.00E+00,4.95E-03,1.11E-01,3,3,6,5
+GO:0009127,1. Purine nt monophosphate biosyn proc,BP,O-coral,6.19E-01,1.00E+00,5.60E-03,5.19E-03,16,16,20,19
+GO:0009168,Purine ribonucleoside MP biosyn proc,BP,O-coral,6.19E-01,1.00E+00,5.60E-03,5.19E-03,16,16,20,19
+GO:0006886,2. Intracellular protein transport,BP,O-coral,1.87E-01,8.90E-02,4.89E-03,7.65E-03,54,57,62,57
+GO:0006413,1. Translational initiation,BP,O-Site,2.77E-01,4.65E-03,6.35E-01,7.91E-03,15,18,15,17
+GO:0003743,Translation initiation factor activity,MF,O-Site,6.53E-02,7.67E-04,1.29E-01,1.31E-03,15,18,15,17
+GO:0008135,"Translation factor activity, RNA binding",MF,O-Site,1.56E-02,4.27E-04,3.82E-02,1.81E-03,21,24,21,22
+GO:0005852,Eukaryotic translation initiation factor 3 complex,CC,O-Site,3.41E-02,2.91E-04,5.50E-01,1.71E-04,8,10,7,10
+GO:0043648,2. Dicarboxylic acid metabolic process,BP,O-Site,2.90E-02,9.31E-03,1.31E-02,3.11E-03,15,16,16,16
+GO:0045010,3. Actin nucleation,BP,O-Site,1.14E-02,1.23E-03,2.23E-02,8.31E-03,10,11,10,10
+GO:0006733,1. Oxidoreduction coenzyme metabolic process,BP,N-coral,7.55E-04,7.96E-03,1.20E-02,4.09E-02,22,21,21,19
+GO:0051287,NAD binding,MF,N-coral,9.43E-03,6.96E-04,8.86E-02,2.29E-02,18,20,17,17
+GO:0016829,2. Lyase activity,MF,N-coral,3.01E-03,5.56E-04,6.59E-01,1.34E-02,45,48,40,42
+GO:0006753,1. Nucleoside phosphate metabolic process,BP,N-Site,6.51E-03,1.19E-01,2.67E-03,1.13E-01,56,54,60,51
+GO:0009117,Nucleotide metabolic process,BP,N-Site,7.28E-03,1.31E-01,2.84E-03,1.30E-01,55,53,59,50
+GO:0072329,1. Monocarboxylic acid catabolic process,BP,CrossT,1.11E-01,5.00E-03,1.11E-04,1.24E-02,13,15,17,14
+GO:0006635,Fatty acid beta-oxidation,BP,CrossT,1.38E-01,3.65E-03,4.89E-04,1.31E-02,11,13,14,12
+GO:0000062,Fatty-acyl-CoA binding,MF,CrossT,1.13E-01,4.61E-03,7.53E-04,1.16E-02,12,14,15,13
+GO:0006099,2. Tricarboxylic acid cycle,BP,CrossT,5.65E-02,2.72E-03,3.86E-03,2.05E-01,14,16,16,13
+GO:1901136,3. Carbohydrate derivative catabolic process,BP,CrossT,6.25E-02,4.65E-03,6.79E-03,1.87E-01,16,18,18,15
+GO:0030170,4. Pyridoxal phosphate binding,MF,CrossT,1.08E-01,4.71E-04,8.86E-03,1.62E-01,23,28,26,22
+GO:0050662,Coenzyme binding,MF,CrossT,1.47E-02,4.44E-03,1.50E-03,1.92E-02,52,55,57,50
+GO:0052890,Oxidoreductase activity(1),MF,CrossT,2.49E-01,7.20E-03,9.26E-04,2.43E-02,10,12,13,11

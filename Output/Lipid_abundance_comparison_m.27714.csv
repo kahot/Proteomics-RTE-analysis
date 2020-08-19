@@ -1,0 +1,7 @@
+"","treatment","Protein","LogFoldChange","Zstatistic","fdr","FDRup","FDRdown","DEFLINE"
+"1","lipNsite NN-ON","m.27714",-0.13,-0.1613,0.798489,0.712733,0.127627,"Isovaleryl-CoA dehydrogenase, mitochondrial OS=Rattus norvegicus GN=Ivd PE=1 SV=2"
+"2","lipOsite NO-OO","m.27714",1.381,2.4984,0,0,0.61342,"Isovaleryl-CoA dehydrogenase, mitochondrial OS=Rattus norvegicus GN=Ivd PE=1 SV=2"
+"3","lipNcoral NN-NO","m.27714",-0.04,-0.053,0.479108,1,0.903443,"Isovaleryl-CoA dehydrogenase, mitochondrial OS=Rattus norvegicus GN=Ivd PE=1 SV=2"
+"4","lipOcoral ON-OO","m.27714",1.421,2.1437,0,0,0.628973,"Isovaleryl-CoA dehydrogenase, mitochondrial OS=Rattus norvegicus GN=Ivd PE=1 SV=2"
+"5","lipCross NO-ON","m.27714",-0.045,-0.0544,0.864223,0.706056,0.165236,"Isovaleryl-CoA dehydrogenase, mitochondrial OS=Rattus norvegicus GN=Ivd PE=1 SV=2"
+"6","lipBack NN-OO","m.27714",1.313,2.2229,0,0,0.631848,"Isovaleryl-CoA dehydrogenase, mitochondrial OS=Rattus norvegicus GN=Ivd PE=1 SV=2"
