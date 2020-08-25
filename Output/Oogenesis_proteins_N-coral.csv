@@ -8,4 +8,4 @@
 "1934","m.30564",140,0,3,0,0,3,0,-0.1,-0.1461,0.448389,0.966152,1,"Egg protein OS=Euphyllia ancora PE=2 SV=1"
 "2240","m.35910",178,0,3,3,0,1,0,-1.052,-1.3871,1,1,0.695357,"Vitellogenin OS=Oncorhynchus mykiss GN=vtg1 PE=1 SV=1"
 "2413","m.4",1370,116,235,95,95,325,53,-0.022,-0.3383,0.686487,0.840523,1,"Major yolk protein OS=Strongylocentrotus purpuratus PE=1 SV=2"
-"2795","m.5747",202,1,6,0,23,7,7,1.478,3.6366,0.000169,2.3e-05,0.987921,"Egg protein OS=Euphyllia ancora PE=2 SV=1"
+"2795","m.5747",202,1,6,0,23,7,7,1.478,3.6366,0.000169,0.000023,0.987921,"Egg protein OS=Euphyllia ancora PE=2 SV=1"

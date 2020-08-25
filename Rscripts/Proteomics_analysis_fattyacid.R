@@ -94,7 +94,6 @@ ggplot(dfm, aes(x=Treatment.label, y=Protein, fill=NSAF)) + geom_tile()+
         theme(legend.title = element_text(size=10), axis.title=element_blank())+
         facet_grid(~origin, scales="free",space="free")+
         theme(panel.spacing.x=unit(0, "lines"),strip.background.x = element_rect(color="gray50"))
-
 ggsave("Output/betaoxidation_Heatmap_stdNSAF.pdf", width = 6,height = 2.5)
 
 

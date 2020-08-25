@@ -114,8 +114,7 @@ ggplot(detox.m, aes(x=Treatment.label, y=Protein, fill=NSAF)) + geom_tile()+
     geom_vline(xintercept=2.5, color="white")+
     facet_grid(~origin, scales="free_x",space="free_x")+
     theme(panel.spacing.x=unit(0, "lines"), strip.background.x = element_rect(color="gray50"))
-ggsave("Output/Heatmap_detox.pdf", width = 5,height = 4.5)
-
+#ggsave("Output/Heatmap_detox.pdf", width = 5,height = 4.5)
 
 #save deto.melt files
 write.csv(detox.m,"Output/Detox.melt.file.csv")

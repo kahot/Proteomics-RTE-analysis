@@ -4,7 +4,7 @@
 "844","m.17615",183,0,12,14,2,2,9,-0.501,-1.4447,0,0.62963,0,"Egg protein OS=Galaxea fascicularis GN=GfEP-4 PE=2 SV=1","5041693"
 "884","m.17922",150,0,5,19,5,3,4,-0.535,-1.5526,0,0.625756,0,"Vitellogenin-1 OS=Fundulus heteroclitus GN=vtg1 PE=1 SV=2","Q90508"
 "1114","m.20628",112,1,0,0,0,1,0,0.239,0.2902,1,0.497788,0.659965,"Egg protein OS=Euphyllia ancora PE=2 SV=1","5376222"
-"1656","m.26931",103,0,2,3,0,0,0,-0.544,-0.757,0.000802,0.666147,3.7e-05,"Egg protein OS=Euphyllia ancora PE=2 SV=1","5376222"
+"1656","m.26931",103,0,2,3,0,0,0,-0.544,-0.757,0.000802,0.666147,0.000037,"Egg protein OS=Euphyllia ancora PE=2 SV=1","5376222"
 "1705","m.27544",189,0,4,0,0,3,0,-0.014,-0.0227,0.983363,0.694898,0.306732,"Egg protein OS=Galaxea fascicularis GN=GfEP-4 PE=2 SV=1","5041693"
 "1913","m.30564",140,0,3,0,0,0,0,-0.386,-0.5202,0.035935,0.688009,0.002092,"Egg protein OS=Euphyllia ancora PE=2 SV=1","5376222"
 "2196","m.35910",178,0,3,3,6,5,6,1.141,2.5638,0,0,0.615815,"Vitellogenin OS=Oncorhynchus mykiss GN=vtg1 PE=1 SV=1","Q92093"
