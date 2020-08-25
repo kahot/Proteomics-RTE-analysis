@@ -16,25 +16,38 @@ leveneTest(Thickness ~ Treatment, data=after)
 shapiro.test(log(after$Thickness)) 
 #W = 0.98698, p-value = 0.06337
 
-##### comparing 4 treatments  #####
-mod<-aov(log(Thickness)~Treatment/Indiv,data=after)
-summary(mod)
-#                 Df Sum Sq Mean Sq F value   Pr(>F)    
-#Treatment         3  1.078  0.3593   39.03 <2e-16 ***
-#Treatment:Indiv  16  8.342  0.5214   56.63 <2e-16 ***
-#Residuals       180  1.657  0.0092                    
- 
+##### Comparing the treatments  #####
+####  nested 2-way anova   
+mod1<-aov(log(Thickness)~Site*Origin/Indiv,data=after)
+summary(mod1)
+#                   Df Sum Sq Mean Sq F value   Pr(>F)    
+#Site                1  0.306  0.3063   33.27 3.44e-08 ***
+#Origin              1  0.503  0.5031   54.64 5.25e-12 ***
+#Site:Origin         1  0.269  0.2686   29.17 2.08e-07 ***
+#Site:Origin:Indiv  16  8.342  0.5214   56.63  < 2e-16 ***
+#Residuals         180  1.657  0.0092 
 
-TukeyHSD(x=mod,'Treatment', conf.level=0.99)
+TukeyHSD(x=mod1,'Site:Origin', conf.level=0.95)
+#$`Site:Origin`
+#                diff         lwr         upr     p adj
+#O:N-N:N  0.004979642 -0.04478639  0.05474567 0.9938582
+#N:O-N:N -0.173599999 -0.22336603 -0.12383397 0.0000000
+#O:O-N:N -0.022043741 -0.07180977  0.02772229 0.6599050
+#N:O-O:N -0.178579641 -0.22834567 -0.12881361 0.0000000
+#O:O-O:N -0.027023383 -0.07678941  0.02274265 0.4959223
+#O:O-N:O  0.151556258  0.10179023  0.20132229 0.0000000
 
-#$Treatment
-#        diff         lwr         upr     p adj
-#NO-NN  0.004979642 -0.05561462  0.06557390 0.9938582
-#ON-NN -0.173599999 -0.23419426 -0.11300574 0.0000000
-#OO-NN -0.022043741 -0.08263800  0.03855052 0.6599050
-#ON-NO -0.178579641 -0.23917390 -0.11798538 0.0000000
-#OO-NO -0.027023383 -0.08761764  0.03357088 0.4959223
-#OO-ON  0.151556258  0.09096200  0.21215052 0.0000000
+#Rewriting to Genotyp:Site style
+#NO-NN  0.9938582
+#ON-NN  0.0000000
+#NN-OO  0.6599050
+#NO-ON  0.0000000
+#OO-NO  0.4959223
+#OO-ON  0.0000000
+
+
+
+
 
 
 #######

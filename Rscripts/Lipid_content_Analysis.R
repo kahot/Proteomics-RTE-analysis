@@ -21,24 +21,28 @@ shapiro.test(lipids$Lipids)
 after<-lipids[lipids$Treatment=="After",]
 after$Treat2<-paste0(after$Origin,after$Site)
 ### ANOVA
-a1 <- aov(Lipids~Treat2,data=after)
+a1 <- aov(Lipids~Origin*Site,data=after)
 summary(a1)
 #            Df  Sum Sq  Mean Sq F value Pr(>F)  
-#Treatment    3 0.02502 0.008339   3.151 0.0539 .
-#Residuals   16 0.04234 0.002646                 
+#Origin       1 0.00391 0.003911   1.478 0.2418  
+#Site         1 0.00679 0.006792   2.566 0.1287  
+#Origin:Site  1 0.01432 0.014316   5.410 0.0335 *
+#Residuals   16 0.04234 0.002646                
 
 TukeyHSD(x=a1,conf.level=0.95)
-#              diff         lwr         upr     p adj
-#NO-NN  0.016651917 -0.07643267 0.109736503 0.9550729
-#ON-NN  0.081475239 -0.01160935 0.174559824 0.0973067 
-#OO-NN -0.008889362 -0.10197395 0.084195224 0.9925862
-#ON-NO  0.064823321 -0.02826126 0.157907906 0.2315865
-#OO-NO -0.025541279 -0.11862586 0.067543306 0.8601419
-#OO-ON -0.090364600 -0.18344919 0.002719985 0.0586391  .
+#$`Origin:Site`
+#               diff         lwr         upr     p adj
+#O:N-N:N  0.081475239 -0.01160935 0.174559824 0.0973067
+#N:O-N:N  0.016651917 -0.07643267 0.109736503 0.9550729
+#O:O-N:N -0.008889362 -0.10197395 0.084195224 0.9925862
+#N:O-O:N -0.064823321 -0.15790791 0.028261264 0.2315865
+#O:O-O:N -0.090364600 -0.18344919 0.002719985 0.0586391
+#O:O-N:O -0.025541279 -0.11862586 0.067543306 0.8601419
 
 
 
 ######### Before and After Comparison #################
+
 
 ### N->N  comparing before and after###
 lipN1<-aov(Lipids~ Treatment, data=lipids[lipids$Origin=="N"&lipids$Site=="N",] )
@@ -47,12 +51,18 @@ summary(lipN1)
 #Treatment    1 0.00469 0.004691   0.568  0.473
 #Residuals    8 0.06606 0.008257   
 
+t.test(lipids$Lipids[lipids$Origin=="N"&lipids$Site=="N"&lipids$Treatment=="Before"], lipids$Lipids[lipids$Origin=="N"&lipids$Site=="N"&lipids$Treatment=="After"])
+#t = -0.75373, df = 5.3651, p-value = 0.4828
+
 ### N->O before and after ###
 lipN2<-aov(Lipids~ Treatment, data=lipids[lipids$Origin=="N"&lipids$Site=="O",] )
 summary(lipN2)
 #            Df  Sum Sq  Mean Sq F value Pr(>F)
 #Treatment    1 0.00899 0.008991   0.996  0.348
 #Residuals    8 0.07222 0.009028
+
+t.test(lipids$Lipids[lipids$Origin=="N"&lipids$Site=="O"&lipids$Treatment=="Before"], lipids$Lipids[lipids$Origin=="N"&lipids$Site=="O"&lipids$Treatment=="After"])
+#t = -0.99794, df = 6.1129, p-value = 0.3562
 
 
 ### O->N  before and after ###
@@ -62,6 +72,9 @@ summary(lipO1)
 #Treatment    1 0.06676 0.06676   33.67 0.000404 ***
 #Residuals    8 0.01586 0.00198
 
+t.test(lipids$Lipids[lipids$Origin=="O"&lipids$Site=="N"&lipids$Treatment=="Before"], lipids$Lipids[lipids$Origin=="O"&lipids$Site=="N"&lipids$Treatment=="After"])
+#t = -5.8029, df = 4.2861, p-value = 0.003534
+
 ### O->O  before and after ###
 lipO2<-aov(Lipids~ Treatment, data=lipids[lipids$Origin=="O"&lipids$Site=="O",] )
 summary(lipO2)
@@ -69,6 +82,8 @@ summary(lipO2)
 #Treatment    1 0.013339 0.013339   64.72 0.0000419 ***
 #Residuals    8 0.001649 0.000206
 
+t.test(lipids$Lipids[lipids$Origin=="O"&lipids$Site=="O"&lipids$Treatment=="Before"], lipids$Lipids[lipids$Origin=="O"&lipids$Site=="O"&lipids$Treatment=="After"])
+#t = -8.0449, df = 7.1932, p-value = 7.586e-05
 
 # Extracting before exp values
 before<-lipids[c(1:5,21:25),]
