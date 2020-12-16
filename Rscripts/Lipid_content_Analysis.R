@@ -223,7 +223,7 @@ O_plot<-
 
 O_plot 
 
-pdf("Output/LLipids_before.after.pdf",width=7, height=3.7)
+pdf("Output/Lipids_before.after.pdf",width=7, height=3.7)
 grid.arrange(N_plot,O_plot,nrow=1)
 dev.off()
 
