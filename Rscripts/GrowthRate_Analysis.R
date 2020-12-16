@@ -8,7 +8,7 @@ cols<-c("#ED8636","#0433FF")
 
 ######
 #read the data
-GR<-read.csv('Data/Abs_growth_gram.csv')
+GR<-read.csv('Data/Rel_growth_gram.csv')
 colnames(GR)[3:14]<-gsub("\\.", " ", colnames(GR)[3:14])
 
 grm<-melt(GR, id_vars=c("Origin","Sample"))
@@ -17,6 +17,12 @@ grm<-melt(GR, id_vars=c("Origin","Sample"))
 leveneTest((value)^2 ~ Sample, data=grm) #2.2e-16 ***
 shapiro.test(grm$value)   #2.2e-16
 # can't use parametric tests
+
+GR2<-GR[,c(1:2,14 )]
+grm2<-melt(GR2, id_vars=c("Origin","Sample"))
+leveneTest(log(value) ~ Sample, data=grm2) #0.006212 **
+
+shapiro.test(log(grm2$value)) p-value = 0.4455
 
 #Run Wilcoxon Rank Sum Test
 wilcox.test(GR$`Day 77`[GR$Origin=="N"],GR$`Day 77`[GR$Origin=="O"], "greater")
@@ -38,7 +44,7 @@ ggplot(ME, aes(x=Day, y=Growth, color=Origin))+
     geom_line(aes(x=Day, y=Growth, group=Origin),position=position_dodge(width=0.2), stat='identity')+
     theme_bw()+
     labs(x="")+
-    ylab("Growth (g)")+
+    ylab("Relative growth (g)")+
     theme(axis.text.x = element_text(size=12, color=1,angle=45, hjust=1),
           axis.text.y = element_text(color=1),axis.title.y = element_text(size=13))+
     theme(panel.grid.major.x = element_blank(),legend.title = element_blank())+
