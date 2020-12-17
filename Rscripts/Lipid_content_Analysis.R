@@ -148,7 +148,7 @@ ggplot(sum, aes(x=Site,y=Ratio,color=factor(Origin),fill=factor(Origin)))+
     annotate(geom="text", x=1.025, y=sum[3,8], label="O",color ='white', size=6)+
     annotate(geom="text", x=1.975, y=sum[2,8], label="N",color ='black', size=6)+
     annotate(geom="text", x=2.025, y=sum[4,8], label="O",color ='white', size=6)
-ggsave(filename="Output/Lipid.pdf",width=4, height=3.8 )
+ggsave(filename="Output/Lipid.pdf",width=4, height=3.8,useDingbats=FALSE)
 
 
 ######################
@@ -223,7 +223,7 @@ O_plot<-
 
 O_plot 
 
-pdf("Output/Lipids_before.after.pdf",width=7, height=3.7)
+pdf("Output/Lipids_before.after.pdf",width=7, height=3.7,useDingbats=FALSE)
 grid.arrange(N_plot,O_plot,nrow=1)
 dev.off()
 

@@ -54,4 +54,4 @@ ggplot(ME, aes(x=Day, y=Growth, color=Origin))+
     annotate("point", x = 1, y =.43 , color=cols[2], size=3)+
     annotate(geom="text", x=2, y=.43, label="O-coral",size=3)+
     theme(legend.position="none")
-ggsave("Output/Growth_plot_SE.pdf", width =7 ,height = 3.7)
+ggsave("Output/Growth_plot.pdf", width =7 ,height = 3.7,useDingbats=FALSE)
